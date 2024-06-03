@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(311, 345)
+        MainWindow.resize(405, 365)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 311, 23))
+        self.menubar.setGeometry(QRect(0, 0, 405, 23))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
@@ -118,7 +118,8 @@ class Ui_MainWindow(object):
 "</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">\u6b22\u8fce\u4f7f\u7528\u6b64\u8f6f\u4ef6\uff01<br />\u6b64\u8f6f\u4ef6\u4f1a\u5c1d\u8bd5\u4fee\u6539\u6240\u67097z\u6587\u4ef6\u7684\u6587\u4ef6\u5934\uff0c\u4f7f\u5f97\u6587\u4ef6\u65e0\u6cd5\u88ab\u5728\u7ebf\u89e3\u538b\u3002</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">\u8bf7\u9009\u62e9\u6587\u4ef6\u6240\u5728\u7684\u6587\u4ef6\u5939\uff08\u4e0d\u5fc5\u62c5\u5fc3\u4e00\u822c\u6587\u4ef6\u88ab\u4fee\u6539"
-                        "\uff0c\u6b64\u8f6f\u4ef6\u4f1a\u81ea\u52a8\u8bc6\u522b\uff09</span></p></body></html>", None))
+                        "\uff0c\u6b64\u8f6f\u4ef6\u4f1a\u81ea\u52a8\u8bc6\u522b;\u53ef\u4ee5\u4ece\u9876\u5c42\u6587\u4ef6\u5f00\u59cb\uff1a\u6b64\u8f6f\u4ef6\u4f1a\u904d\u5386\u9009\u62e9\u7684\u8def\u5f84\u4e0b\u7684\u6240\u6709\u5b50\u76ee\u5f55\u548c\u6587\u4ef6\uff09\u3002</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">\u5982\u679c\u4e0b\u62c9\u6846\u662f\u4fee\u6539\uff1a<br />\u5c06\u6587\u4ef6\u5934\u4fee\u6539\u4e3a\u5176\u4ed6\u5b57\u7b26<br />\u5982\u679c\u4e0b\u62c9\u6846\u662f\u6062\u590d\uff1a<br />\u5c06\u6587\u4ef6\u5934\u4fee\u6539\u4e3a7z\u6807\u51c6\u6587\u4ef6\u5934</span></p></body></html>", None))
         self.start.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb", None))
     # retranslateUi
 
