@@ -106,7 +106,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"7z\u6587\u4ef6\u9632\u7206", None))
         self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"\u4fee\u6539", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"\u6062\u590d", None))
 
