@@ -65,7 +65,8 @@ class progress_bar(QThread):
                         if bytes_string == fake_hander:
                             pass
                         else:
-                            f.write(fake_hander)
+                            if file.split(".")[-1] == "7z":
+                                f.write(fake_hander)
                     else:
                         if bytes_string == ture_hander:
                             pass
